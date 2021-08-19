@@ -62,7 +62,7 @@ function SignUp() {
                 </FlexContainer>
                 <InputSubmit type="submit" value="Sign up" />
             </Form>
-            <Link style={{ textDecoration: 'none' }} to="/signin">
+            <Link style={{ textDecoration: 'none' }} exact to="/">
                 <LinkStyle style={{ marginLeft: '180px' }}> Already have an account? Sign in</LinkStyle>
             </Link>
             <Footer>Copyright © Your website 2021.</Footer>

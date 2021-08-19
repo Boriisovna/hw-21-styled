@@ -7,7 +7,7 @@ import {BrowserRouter as Router} from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    <Router basename="/hw-21-styled">
       <App />
     </Router>
   </React.StrictMode>,

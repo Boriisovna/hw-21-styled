@@ -16,8 +16,8 @@ function App() {
             <Image src={Logo}/>
           </ImageContain>
           <Switch>
-            <Route path ="/signup" component={SignUp}/>
-            <Route path ="/signin" component={SignIn}/>
+            <Route exact path ='/' component={SignIn}/>  
+            <Route path ='/sign-up' component={SignUp}/>
           </Switch>
         </Wrapper>
     </div>
